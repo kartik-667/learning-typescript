@@ -3,6 +3,9 @@ compiler- tsc app.ts
 
 automatic compilation = tsc --watch
 
+for declaring variables, dont use "var", it causes weird behavior
+use let and const only...
+
 primitive and ref 
 ref- {} () [] , ref means b=a means a is like address naki copy
 rest are primitive

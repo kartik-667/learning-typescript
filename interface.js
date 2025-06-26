@@ -1,4 +1,5 @@
 "use strict";
+let doggy;
 function fnc1(obj) {
     obj.age = 20;
     obj.name = "sheriyans";

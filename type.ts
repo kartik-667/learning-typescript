@@ -24,4 +24,11 @@ function greet(name:string):void {
 }
 greet("kartik")
 
+let fruits:string[];
+function addfruit(fruitname:string):void{
+    fruits.push(fruitname)
+    console.log('updated arr is',fruits);
+    
+}
+
 

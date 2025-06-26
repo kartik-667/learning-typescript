@@ -17,3 +17,8 @@ function greet(name) {
     console.log("hey wassup ", name);
 }
 greet("kartik");
+let fruits;
+function addfruit(fruitname) {
+    fruits.push(fruitname);
+    console.log('updated arr is', fruits);
+}
