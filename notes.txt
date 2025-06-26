@@ -1,0 +1,29 @@
+--initilaise = tsc --init 
+compiler- tsc app.ts
+
+automatic compilation = tsc --watch
+
+primitive and ref 
+ref- {} () [] , ref means b=a means a is like address naki copy
+rest are primitive
+
+tuple- just like array, but fixed size and we can also give what ele to
+give at what pos 
+
+
+enum eg=  enum status_codes{
+    success=200, 
+    notfound=404,
+    internalerror=500,
+    
+}
+now we can use above values directly
+
+
+data types-- 
+1. any- default value of a variable
+2. unknown- in this we have to check what is type using typeof var_name
+3. never- if used with a fnc, it will never return a value, rest code will not return
+
+
+type inference- tsc will automatically give a datatype 
