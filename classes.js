@@ -11,6 +11,9 @@ class Tree {
         this.left = null;
         this.right = null;
     }
+    sum(a, b) {
+        return a + b;
+    }
 }
 ;
 // class Test extends Tree{

@@ -30,3 +30,9 @@ data types--
 
 
 type inference- tsc will automatically give a datatype 
+
+readonly in classes- if we assign readonly to any var in a classe
+we cant change its value later, its const type value
+
+optional paramters- add ? after variable name so that its optional to give
+eg constructor(name:string, age?:number) - age is optional

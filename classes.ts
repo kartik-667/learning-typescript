@@ -1,6 +1,7 @@
+
+
 class Device{
     constructor(public name:string,public price:number){}
-
 }
 
 class Tree{
@@ -12,6 +13,10 @@ class Tree{
         this.val=val;
         this.left=null;
         this.right=null;
+    }
+     sum(a:number, b:number):number{
+        return a+b
+
     }
 
 
