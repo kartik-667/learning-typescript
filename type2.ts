@@ -3,7 +3,7 @@ let myname:string="kartik"
 let surname:string;
 
 surname="verma"
-function sum(n1:number, n2:number) : Number{
+function sum(n1:number, n2:number) : number{
     return n1+n2
     
 }

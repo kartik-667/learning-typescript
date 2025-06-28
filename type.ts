@@ -2,7 +2,7 @@ var a=12
 console.log(a);
  
 
-let arr1:Number[]=[]
+let arr12:Number[]=[]
 arr1.push(1,2,3,4,5);
 
 let tuple1: [string, string]=["kartik","verma"]

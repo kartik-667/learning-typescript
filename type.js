@@ -1,7 +1,7 @@
 "use strict";
 var a = 12;
 console.log(a);
-let arr1 = [];
+let arr12 = [];
 arr1.push(1, 2, 3, 4, 5);
 let tuple1 = ["kartik", "verma"];
 var status_codes;
