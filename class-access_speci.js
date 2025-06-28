@@ -29,8 +29,6 @@ let cnt = user1.getcount();
 console.log(res, "count is", cnt);
 //using getter and setter-
 class student {
-    static version=1.0 //can be used without any object of it
-
     constructor(_name, age, altno) {
         this._name = _name;
         this.age = age;
@@ -46,5 +44,22 @@ class student {
 let st1 = new student("kartik", 21);
 st1.name = "rishabh";
 console.log(st1);
-
-
+//abstraction -- just define a class but never make obj of it
+//make obj of it subclasses only
+class payment {
+    constructor(type, amount = 0) {
+        this.type = type;
+        this.amount = amount;
+    }
+    getPayment() {
+        return this.amount;
+    }
+}
+class paytm extends payment {
+    constructor() {
+        super(...arguments);
+        this.paytmno = 0;
+    }
+}
+let pay1 = new paytm();
+pay1.getPayment();

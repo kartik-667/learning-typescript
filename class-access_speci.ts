@@ -48,5 +48,24 @@ let st1=new student("kartik",21)
 st1.name="rishabh"
 console.log(st1);
 
+//abstraction -- just define a class but never make obj of it
+//make obj of it subclasses only
+
+class payment{
+    constructor(protected type?:string, protected amount:number=0){}
+
+    getPayment():number{
+        return this.amount
+    }
+}
+
+class paytm extends payment{
+    public paytmno:number=0
+
+
+}
+ let pay1=new paytm()
+ pay1.getPayment()
+ 
 
 
